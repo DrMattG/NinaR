@@ -1,0 +1,258 @@
+---
+title: [Skriv in titell nivå 1 her]
+subtitle: [Skriv in titell nivå 2 her]
+first_author:
+  - name: [Skriv in forfatter her]
+    address: [Author adress]
+    email: for.efternavn@nina.no
+second_authors:
+  - name: [Skriv in forfatter her]
+    address: [Author adress]
+    email: for.efternavn@nina.no
+  - name: [Skriv in forfatter her]
+    address: [Author adress]
+    email: for.efternavn@nina.no
+last_author:    
+  - name: [Skriv in siste forfatter her]
+    address: [Author adress]
+    email: for.efternavn@nina.no
+reportnr: 1234
+location: Trondheim
+ISBN_end: 1234-5
+self-ref: Brum, O., Robin, K. 2016. En veldig bra titel. 
+english-self-ref: the Poo, W., Robin, C. 2016. A very good title.
+handle-endpoint: [fås av bibliotek]
+access: Åpen
+secure_pdf:
+cover_picture: coverPicture.png
+cover_picture_text: Forsidebildetekst
+cover_picture_photographer: Fotografnavn
+line_numbering:
+qualitycontrol: [xx]
+boss_sign: Forskningssjef [fylles ut av forskningssjefen] (sign.)
+customer: [xx]
+customer_ref: [xx]
+customer_contact: [xx]
+keywords:
+  - word: geografisk område (land, fylke, kommune)
+  - word: art (fauna, flora, høyere taksonomisk enhet
+  - word: konsekvensutredning
+  - word: overvåkingsrapport
+  - word: etterundersøkelse
+  - word: vassdrag
+  - word: økosystemtjenester
+  - word: radioaktivitet
+englishkeywords:
+  - word: [se nøkkelord]
+bibliography: mybibfile.bib
+output: 
+  NinaR::ninaMap:
+    highlight: tango
+    fig_caption: yes
+    latex_engine: xelatex
+foreword: 
+    text: [Forord inn her]
+    location: [Sted, forord]
+    name: [Prosjektleder]
+sammendrag: |
+  Tekst inn her, et kort resymé av innholdet.
+  
+preamble: This document describes for maps of distributions...Using the 'Usage, Overview, Data, Model, Assessment, and Prediction' (UODMAP) protocol.
+usage: Usage or Application
+---
+
+```{r setup, echo=F, message=F, warning=F}
+require(NinaR)
+require(xtable)
+require(knitr)
+require(ggplot2)
+opts_chunk$set(tidy=T, 
+               tidy.opts=list(width.cutoff=50),
+               fig.align = "left")
+options(width = 60,
+        "xtable.comment" = F,
+        "xtable.include.rownames" = F)
+
+```
+
+## Overview
+
+### Model objective
+
+*Model objective:*
+
+<!--# model objective should give an idea of the reason for the model - forecasting, inference, mapping/intrapolation   -->
+
+*Target output:*
+
+<!--# what is being modelled - is it habitat suitability; is it abundance; etc -->
+
+### Taxon, location, predictors, scale
+
+**Taxon**
+
+*Focal Taxon:*
+
+**Location**
+
+*Location:*
+
+**Scale of Analysis**
+
+*Spatial extent:* bounding box
+
+xmin
+
+ymin
+
+xmax
+
+ymax
+
+*Spatial resolution:*
+
+*Temporal extent:*
+
+*Boundary:*
+
+**Biodiversity data**
+
+*Observation type:*
+
+*Response data type:*
+
+**Predictors**
+
+*Predictor types:*
+
+### Conceptual underpinning
+
+**Hypotheses**
+
+*Hypotheses:*
+
+**Assumptions**
+
+*Model assumptions:*
+
+### Software, codes and data availability
+
+**Algorithms**
+
+*Modelling techniques:*
+
+*Model complexity:*
+
+*Model averaging:*
+
+**Workflow**
+
+*Model workflow:*
+
+1.  
+
+2.  
+
+3.  
+
+4.  ...
+
+**Software**
+
+*Software:*
+
+*Data availability:*
+
+## Data
+
+### Biodiversity data
+
+*Taxon names:*
+
+*Ecological level:*
+
+*Data sources:*
+
+*Sample size:*
+
+### Data partitioning
+
+*Training data:*
+
+*Validation data:*
+
+### Environmental data
+
+#### Predictor variables
+
+*Coordinate reference system:*
+
+##### Topography
+
+##### Soil
+
+##### Climate
+
+#### Transfer data
+
+##### Climate
+
+##### Forest cover and type
+
+## Model
+
+### Habitat Suitability Model (HSM)
+
+#### Variable selection
+
+#### Model setting and model complexity
+
+#### Model estimates, variable importance
+
+*Variable importance:*
+
+#### Model selection, averaging, ensembles
+
+*Model selection:* *Model averaging:*
+
+#### Non-independence analyses
+
+#### Threshold selection
+
+### Movement Model
+
+#### Connectivity metrics and assessment
+
+##### Movement flow
+
+##### Functional connectivity
+
+## Assessment
+
+### Preformance
+
+### Response curves
+
+## Prediction
+
+### Prediction output
+
+#### Habitat suitability
+
+*Prediction unit:*
+
+#### Climate vulnerability index
+
+### Uncertainty quantification
+
+## Discussion
+
+\clearpage
+
+# References {#references}
+
+```{=tex}
+\setlength{\parindent}{-0.2in}
+\setlength{\parskip}{8pt}
+```
+\noindent

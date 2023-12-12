@@ -1,0 +1,5 @@
+name: NINA Map
+description: >
+ Template for creating a NINA Map Report
+create_dir: true
+
