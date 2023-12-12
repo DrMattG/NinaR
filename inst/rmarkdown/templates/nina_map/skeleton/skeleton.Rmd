@@ -75,9 +75,9 @@ options(width = 60,
 
 ```
 
-## Overview
+# Overview
 
-### Model objective
+## Model objective
 
 *Model objective:*
 
@@ -87,7 +87,7 @@ options(width = 60,
 
 <!--# what is being modelled - is it habitat suitability; is it abundance; etc -->
 
-### Taxon, location, predictors, scale
+## Taxon, location, predictors, scale
 
 **Taxon**
 
@@ -125,7 +125,7 @@ ymax
 
 *Predictor types:*
 
-### Conceptual underpinning
+## Conceptual underpinning
 
 **Hypotheses**
 
@@ -135,7 +135,7 @@ ymax
 
 *Model assumptions:*
 
-### Software, codes and data availability
+## Software, codes and data availability
 
 **Algorithms**
 
@@ -163,9 +163,9 @@ ymax
 
 *Data availability:*
 
-## Data
+# Data
 
-### Biodiversity data
+## Biodiversity data
 
 *Taxon names:*
 
@@ -175,77 +175,77 @@ ymax
 
 *Sample size:*
 
-### Data partitioning
+## Data partitioning
 
 *Training data:*
 
 *Validation data:*
 
-### Environmental data
+## Environmental data
 
-#### Predictor variables
+### Predictor variables
 
 *Coordinate reference system:*
 
-##### Topography
+#### Topography
 
-##### Soil
+#### Soil
 
-##### Climate
+#### Climate
 
-#### Transfer data
+### Transfer data
 
-##### Climate
+#### Climate
 
-##### Forest cover and type
+#### Forest cover and type
 
-## Model
+# Model
 
-### Habitat Suitability Model (HSM)
+## Habitat Suitability Model (HSM)
 
-#### Variable selection
+### Variable selection
 
-#### Model setting and model complexity
+### Model setting and model complexity
 
-#### Model estimates, variable importance
+### Model estimates, variable importance
 
 *Variable importance:*
 
-#### Model selection, averaging, ensembles
+### Model selection, averaging, ensembles
 
 *Model selection:* *Model averaging:*
 
-#### Non-independence analyses
+### Non-independence analyses
 
-#### Threshold selection
+### Threshold selection
 
-### Movement Model
+## Movement Model
 
-#### Connectivity metrics and assessment
+### Connectivity metrics and assessment
 
-##### Movement flow
+#### Movement flow
 
-##### Functional connectivity
+#### Functional connectivity
 
-## Assessment
+# Assessment
 
-### Preformance
+## Preformance
 
-### Response curves
+## Response curves
 
-## Prediction
+# Prediction
 
-### Prediction output
+## Prediction output
 
-#### Habitat suitability
+### Habitat suitability
 
 *Prediction unit:*
 
-#### Climate vulnerability index
+### Climate vulnerability index
 
-### Uncertainty quantification
+## Uncertainty quantification
 
-## Discussion
+# Discussion
 
 \clearpage
 
